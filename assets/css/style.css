@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: graphikRegular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: graphikMedium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: tiempos;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+@font-face {
+    font-family: theinhardt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+body {
+    width: 1400px;
+    margin: auto;
+}
+
+a {
+    color: black;
+}
+
+.grey {
+    color: #9FA2A7;
+}
+
+h2  {
+    font-size: 3.5rem;
+}
+
+.graphikRegular {
+    font-family: graphikRegular;
+    color: black;
+}
+
+.graphikMedium {
+    font-family: graphikMedium;
+
+}
+
+.tiempos {
+    font-family: tiempos;
+    color: black;
+}
+
+.theinhardt {
+    font-family: theinhardt;
+    color: #9FA2A7;
+}
+
+.noTextDecoration {
+    text-decoration: none;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.logo a {
+    font-size: 1.3rem;
+}
+
+.getStarted {
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.mainImg {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: contain;
+    background-image: url(../img/home_hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainImg h1 {
+    height: 30px;
+}
+
+.mainImgBackground {
+    height: 20%;
+    width: 100%;
+    
+}
+
+.textSection {
+    margin: 5% 10% 0% 10%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textSection p {
+    width: 60%;
+    font-size: 1.3rem;
+}
+
+.textSection div {
+    width: 20%;
+    margin-left: 40px;
+}
+
+.textSection div h3 {
+    font-size: 3rem;
+}
+
+.deliverables {
+    height: 800px;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deliverablesText h2 {
+    margin-bottom: 5%;
+}
+
+.deliverablesText h4 {
+    margin-bottom: 3%;
+}
+
+.deliverablesImg {
+    height: 65vh;
+    margin: 5%;
+}
+
+.deliverablesImg img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/1;   
+}
+
+.deliverablesText {
+    margin: 4%;
+}
+
+.deliverablesText div {
+    height: 20vh;
+}
+
+.howItWorks {
+    height: 600px;
+}
+
+.howItWorksBox {
+    height: 450px;
+    background-color: #9fa2a712;
+    margin: 10% 10% 0% 10%;
+    padding: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.howItWorksBox div h2 {
+    transform: translateX(-4%);
+    margin-bottom: 2%;
+}
+.howItWorksText {
+    width: 80vw;
+}
+
+.howItWorksText div {
+    margin-bottom: 10px;
+}
+.howItWorksImg {
+    background-image: url(../img/home_how_it_works.png);
+    width: 60vw;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.critique {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid black;   
+
+}
+
+.critique div:nth-of-type(1) {
+    width: 40vw;
+}
+
+.critique div h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.critiqueImgContainer1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.critiqueImgContainer2 {
+    width: 40%;
+    height: 40%;
+    background-image: url(../img/home_conversion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateY(160%);
+    margin-right: 15%;
+}
+
+.averageConvertion {
+    line-height: 30px;
+    text-align: left;
+    color: #9FA2A7;
+    width: 25%;
+    transform: translateY(-150px) translateX(-190px);
+}
+
+.border {
+
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    height: 200px;
+}
+
+footer div:nth-of-type(1) {
+
+}
+
+footer h2 {
+    width: 100vw;
+    text-align: center;
+}
+
+.footerImg {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/costume_guy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
