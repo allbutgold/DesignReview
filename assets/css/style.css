@@ -24,6 +24,14 @@
     src: url(../fonts/Theinhardt-Lt.woff);
 }
 
+.body {
+    background-color: white;
+}
+
+.blackText {
+
+}
+
 body {
     width: 1400px;
     margin: auto;
@@ -32,6 +40,7 @@ body {
 a {
     color: black;
 }
+
 
 .grey {
     color: #9FA2A7;
@@ -82,7 +91,14 @@ header {
 .getStarted {
     border: 2px solid black;
     padding: 5px;
+}
 
+.getStarted:hover {
+    background-color: black;
+}
+
+.getStarted a:hover {
+    color: white;
 }
 
 .mainImg {
@@ -108,7 +124,7 @@ header {
 
 .textSection {
     margin: 5% 10% 0% 10%;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -126,6 +142,8 @@ header {
 
 .textSection div h3 {
     font-size: 3rem;
+    font-family: theinhardt;
+
 }
 
 .deliverables {
@@ -188,6 +206,7 @@ header {
 .howItWorksText div {
     margin-bottom: 10px;
 }
+
 .howItWorksImg {
     background-image: url(../img/home_how_it_works.png);
     width: 60vw;
