@@ -24,21 +24,10 @@
     src: url(../fonts/Theinhardt-Lt.woff);
 }
 
-.body {
-    background-color: white;
-}
-
-.blackText {
-
-}
 
 body {
     width: 1400px;
     margin: auto;
-}
-
-a {
-    color: black;
 }
 
 
@@ -52,7 +41,6 @@ h2  {
 
 .graphikRegular {
     font-family: graphikRegular;
-    color: black;
 }
 
 .graphikMedium {
@@ -62,7 +50,6 @@ h2  {
 
 .tiempos {
     font-family: tiempos;
-    color: black;
 }
 
 .theinhardt {
@@ -85,10 +72,12 @@ header {
 }
 
 .logo a {
+    color: black;
     font-size: 1.3rem;
 }
 
 .getStarted {
+    color: black;
     border: 2px solid black;
     padding: 5px;
 }
